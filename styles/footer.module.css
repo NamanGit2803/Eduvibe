@@ -1,0 +1,409 @@
+/*******            *******
+         for laptop  
+*****             *******/
+@media (min-width: 900px) {
+    /*  footer   ***(section)*/
+    #footer {
+      display: flex;
+      padding: 3.2rem 25px 1.5rem 25px;
+      /* background: linear-gradient(
+        90deg,
+        rgba(235, 255, 237, 1) 0%,
+        rgba(234, 255, 234, 1) 50%,
+        rgba(225, 255, 231, 1) 100%
+      ); */
+      background-color: #14172b;
+    }
+  
+    /* logo  */
+    .logo {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      color: #EEEEEE;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      letter-spacing: -1px;
+    }
+  
+    /* links  */
+    .linksContainer {
+      display: flex;
+      flex-direction: column;
+      row-gap: 14px;
+      align-items: flex-end;
+    }
+  
+    .linksContainer a {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      color: #B0BEC5;
+      font-family: var(--second-font);
+      font-size: 15px;
+      width: 50%;
+    }
+  
+    .linksContainer a:hover {
+      cursor: pointer;
+    }
+  
+    /* login container  */
+    .loginContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40vw;
+      background-color: #e8f5e987;
+      border: 0;
+      border-radius: 15px;
+      flex-direction: column;
+      padding: 35px;
+      row-gap: 60px;
+    }
+  
+    .loginContainer h1 {
+      font-family: var(--font-heading);
+      color: #37474f;
+      font-size: 2rem;
+    }
+  
+    /* copyright section  */
+    .copyRightSection {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-family: var(--font-heading);
+      font-size: 14px;
+      color: #9e9e9e;
+      font-weight: 600;
+    }
+  }
+  
+  /*****   for tablet    ******/
+  @media (min-width: 426px) and (max-width: 899px) {
+    /*  footer   ***(section)*/
+    #footer {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    /* footer-1 */
+    .footer1 {
+      background-color: #161925;
+      padding: 5px;
+    }
+  
+    .namelogo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 35px 0px;
+    }
+  
+    .nameContent {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .nameContent a {
+      text-decoration: none;
+    }
+  
+    .nameContent h1 {
+      font-family: "Sansita", sans-serif;
+      font-size: 2.3rem;
+      color: #cfd8dc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .nameContent h1 img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .nameDesc {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-size: 17px;
+      color: #b0b2b8;
+      margin-top: 5px;
+      font-family: var(--second-font);
+      padding: 0px 15%;
+    }
+  
+    /*  product  */
+    .product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+    }
+  
+    /*  links  */
+    .infoContainer {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+  
+    .quickLinks {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+    }
+  
+    .linkDesc {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .linkDesc h2 {
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: #f0faff;
+      font-family: var(--second-font);
+    }
+  
+    .linkI {
+      background-color: #898989;
+      min-height: 1px;
+      display: block;
+      margin-top: 3px;
+      max-width: 168px;
+    }
+  
+    .linkDesc ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      line-height: 25px;
+    }
+  
+    .linkDesc ul li {
+      margin: 2px 0px;
+    }
+  
+    .linkDesc ul li a {
+      text-decoration: none;
+      color: #d1d9dd;
+      font-size: 17px;
+      font-family: var(--second-font);
+    }
+  
+    .linkDesc ul li a:hover {
+      color: #f0faff;
+    }
+  
+    /*   policy  */
+    .policy {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+      margin-left: 15px;
+    }
+  
+    .ploicyI {
+      background-color: #898989;
+      min-height: 1px;
+      display: block;
+      margin-top: 3px;
+      max-width: 63px;
+    }
+  
+    .productI {
+      background-color: #898989;
+      min-height: 1px;
+      display: block;
+      margin-top: 3px;
+      max-width: 89px;
+    }
+  
+    /* footer-2 */
+    .footer2 {
+      background-color: #1e212d;
+      height: 80px;
+      color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      font-family: var(--font-heading);
+      font-size: 17px;
+      padding: 5px;
+      padding-top: 13px;
+      margin-bottom: 45px;
+    }
+  }
+  
+  /****** for mobile  ********/
+  
+  @media (min-width: 250px) and (max-width: 425px) {
+    /*  footer   ***(section)*/
+    #footer {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    /* footer-1 */
+    .footer1 {
+      background-color: #161925;
+      padding: 5px;
+    }
+  
+    .namelogo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0px;
+    }
+  
+    .nameContent {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .nameContent a {
+      text-decoration: none;
+    }
+  
+    .nameContent h1 {
+      font-family: "Sansita", sans-serif;
+      font-size: 2rem;
+      color: #cfd8dc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .nameContent h1 img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .nameDesc {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      color: #b0b2b8;
+      margin-top: 5px;
+      font-family: var(--second-font);
+      padding: 0px 15%;
+    }
+  
+    /*  product  */
+    .product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+    }
+  
+    /*  links  */
+    .quickLinks {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+    }
+  
+    .linkDesc {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .linkDesc h2 {
+      font-size: 17px;
+      margin-bottom: 3px;
+      color: #f0faff;
+      font-family: var(--second-font);
+    }
+  
+    .linkI {
+      background-color: #898989;
+      min-height: 1px;
+      display: block;
+      margin-top: 3px;
+      max-width: 168px;
+    }
+  
+    .linkDesc ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      line-height: 25px;
+    }
+  
+    .linkDesc ul li {
+      margin: 2px 0px;
+    }
+  
+    .linkDesc ul li a {
+      text-decoration: none;
+      color: #B0BEC5;
+      font-size: 16px;
+      font-family: var(--second-font);
+    }
+  
+    .linkDesc ul li a:hover {
+      color: #f0faff;
+    }
+  
+    /*   policy  */
+    .policy {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+    }
+  
+    .ploicyI {
+      background-color: #898989;
+      min-height: 1px;
+      display: block;
+      margin-top: 3px;
+      max-width: 63px;
+    }
+  
+    .productI {
+      background-color: #898989;
+      min-height: 1px;
+      display: block;
+      margin-top: 3px;
+      max-width: 89px;
+    }
+  
+    /* footer-2 */
+    .footer2 {
+      background-color: #1e212d;
+      height: 70px;
+      color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      align-items: self-start;
+      font-family: var(--font-heading);
+      font-size: 15px;
+      padding: 5px;
+      padding-top: 15px;
+      margin-bottom: 55px;
+    }
+  }
